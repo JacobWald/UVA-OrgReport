@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from django.core.management.utils import get_random_secret_key
 import os
 
 import dj_database_url
@@ -23,12 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "gur9mr1ff2#ncmq4l(a)wj1w=%%19m5qo!-+$z8@#+^6qrq_)v"
+SECRET_KEY = get_random_secret_key()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['orgreport-b9d175aa21fa.herokuapp.com', '127.0.0.1']
+#Put your domain name here
+ALLOWED_HOSTS = ['', '127.0.0.1']
 
 
 # Application definition
