@@ -4,11 +4,6 @@ __Disclaimer__: It should be noted that this is not an actually reporting site. 
 
 __Scrum Master:__ Jacob Wald
 
-__Requirements Manager:__ Luci Owens 
+__Description__: As the scrum master for this group project, I lead each sprint, deciding which work needed to get accomplished, and who was to do each task. I also worked extensively on the styling of the site, the initialization of the project, the nav bar, the routing (controler), the report page, and the site admin page.
 
-__Testing Manager:__ Saumil Chukka
-
-__DevOps Manager:__ Ben Cassatt
-
-__Software Architecht:__ Shaina Kumar
 
